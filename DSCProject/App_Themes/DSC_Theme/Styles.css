@@ -1,0 +1,122 @@
+﻿body {
+}
+
+* {
+    font-family: Arial;
+}
+
+#PageWrapper {
+    width: 844px;
+    margin: auto;
+}
+
+header {
+    background-color: #003366;
+    height: 200px;
+    z-index: 0;
+}
+
+#HeaderWrapper {
+    width: auto;
+}
+
+.HeaderLinksLeft {
+    position: absolute;
+    margin-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-left: 160px;
+    float: left;
+    z-index: 10;
+
+}
+
+    .HeaderLinksLeft a {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    text-decoration: none;
+    font-family: sans-serif;
+    color: #7ad3f7;
+    font-weight: 600;
+    text-transform: uppercase;
+    }
+
+.HeaderLinksRight {
+    position: absolute;
+    margin-top: 10px;
+    padding-right: 160px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-right: 10px;
+    float: right;
+    z-index: 9;
+
+}
+
+    .HeaderLinksRight a {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    text-decoration: none;
+    font-family: sans-serif;
+    color: #ffffff;
+    font-weight: 600;
+    text-transform: uppercase;
+    }
+
+.PreferredLogo {
+    width: 222px;
+    height: 160px;
+    padding-top: 20px;
+    display: block;
+    z-index: 5;
+    margin: 0 auto;
+}
+
+Section#Welcome {
+    width: 844px;
+    float: left;
+}
+
+h1 {
+    font-size: medium;
+}
+
+.Introduction {
+    font-size: smaller;
+}
+
+nav {
+    background-color: white;
+    width: 844px;
+    height: 40px;
+}
+
+    nav a {
+        color: #003366;
+    }
+
+.MainMenu {
+    width: auto;
+    height: 20px;
+    padding: 10px;
+    align-items: center;
+}
+
+    .MainMenu ul li {
+        padding-left: 45px;
+        padding-right: 45px;
+    }
+
+    .MainMenu ul li:hover {
+    text-decoration-color: #7ad3f7;
+    border-bottom: 4px solid #7ad3f7;
+}
+
+.ErrorMessage {
+    color: red;
+}
+
+

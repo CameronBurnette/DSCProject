@@ -1,0 +1,57 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="DSCMaster.master.cs" Inherits="MasterPages_MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="HeaderWrapper">
+            <div class="HeaderLinksLeft">
+                <table style="width: 100%;">
+                    <tr>
+                        <td>
+                            <asp:LinkButton ID="AthleticsButton" runat="server" PostBackUrl="http://dsroadrunners.com/index.aspx">Athletics</asp:LinkButton>
+                        </td>
+                        <td>
+                            <asp:LinkButton ID="GiveButton" runat="server" PostBackUrl="http://www.giving.daltonstate.edu/s/1411/give/15/formhome.aspx">Give</asp:LinkButton>
+                        </td>
+                        <td>
+                            <asp:LinkButton ID="AlumniButton" runat="server" PostBackUrl="http://www.alumni.daltonstate.edu/s/1411/give/15/start.aspx">Alumni</asp:LinkButton>
+                        </td>
+                </table>
+            </div>
+   <!--         <div class="HeaderLinksRight">
+                <table style="width: 100%;">
+                    <tr>
+                        <td>
+                            <asp:LinkButton ID="Quicklinks" runat="server" PostBackUrl="">QuickLinks</asp:LinkButton>
+                        </td>
+                        <td>
+                            <asp:LinkButton ID="Search" runat="server" PostBackUrl="">Search</asp:LinkButton>
+                        </td>
+                        <td>
+                            <asp:LinkButton ID="Apply" runat="server" PostBackUrl="">Apply</asp:LinkButton>
+                        </td>
+                </table>
+            </div>  -->
+            <header>
+                <asp:ImageButton ID="DSCLogoWhite" runat="server" CssClass="PreferredLogo" PostBackUrl="~/Default.aspx" ImageUrl="~/App_Themes/DSC_Theme/Images/Dalton State Logos White-Preferred.png" />
+            </header>
+        </div>
+        <div id="PageWrapper">
+            <nav>
+                <asp:Menu ID="Menu1" runat="server" CssClass="MainMenu" Orientation="Horizontal" DataSourceID="SiteMapDataSource1" StaticEnableDefaultPopOutImage="False">
+                </asp:Menu>
+                <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" ShowStartingNode="False" />
+            </nav>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
