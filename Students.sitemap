@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+     <siteMapNode url="~/CurrentRoadrunners/" title="Students"  description="">
+        <siteMapNode url="~/CurrentRoadrunners/Default.aspx" title="Student Home"  description="" />
+        <siteMapNode url="~/CurrentRoadrunners/ClassScheduling/Default.aspx" title="Class Schedule" description="" />
+        <siteMapNode url="~/CurrentRoadrunners/Internships-Employment/Default.aspx" title="Internships/Employment" description="" />
+        <siteMapNode url="~/CurrentRoadrunners/Clubs-Groups/Default.aspx" title="Clubs/Groups" description="" />
+        <siteMapNode url="~/CurrentRoadrunners/StudentFAQ/Default.aspx" title="Student FAQ" description="" />
+        <siteMapNode url="https://www.daltonstate.edu/academics/majors-and-programs.cms" title="Majors and Programs" description="" />
+     </siteMapNode>
+</siteMap>

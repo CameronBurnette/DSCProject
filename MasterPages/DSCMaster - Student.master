@@ -1,4 +1,4 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="DSCMaster.master.cs" Inherits="MasterPages_MasterPage" %>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="DSCMaster - Student.master.cs" Inherits="MasterPages_MasterPage" %>
 
 <!DOCTYPE html>
 
@@ -7,6 +7,9 @@
     <title></title>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
+    <style type="text/css">
+
+    </style>
 </head>
 <body>
     <form id="form1" runat="server">
@@ -25,7 +28,7 @@
                         </td>
                 </table>
             </div>
-           <!-- <div class="HeaderLinksRight">
+            <!-- <div class="HeaderLinksRight">
                 <table style="width: 100%; float: right">
                     <tr>
                         <td>
@@ -43,17 +46,17 @@
                 <asp:ImageButton ID="DSCLogoWhite" runat="server" CssClass="PreferredLogo" PostBackUrl="~/Default.aspx" ImageUrl="~/App_Themes/DSC_Theme/Images/Dalton State Logos White-Preferred.png" />
             </header>
         </div>
-            <div id="NavContainer">
-                <nav id="MainNav">
-                    <asp:Menu ID="Menu1" runat="server" CssClass="MainMenu" Orientation="Horizontal" DataSourceID="SiteMapDataSource1" StaticEnableDefaultPopOutImage="False">
-                        <levelsubmenustyles>
-                            <asp:submenustyle CssClass="level1"/>
-                            <asp:submenustyle CssClass="level2"/> 
-                        </levelsubmenustyles> 
-                    </asp:Menu>
-                    <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" ShowStartingNode="False" />
-                </nav>
-            </div>
+        <div id="NavContainer">
+            <nav id="MainNav">
+                <asp:Menu ID="Menu1" runat="server" CssClass="MainMenu" Orientation="Horizontal" DataSourceID="SiteMapDataSource1" StaticEnableDefaultPopOutImage="False">
+                    <LevelSubMenuStyles>
+                        <asp:SubMenuStyle CssClass="level1" />
+                        <asp:SubMenuStyle CssClass="level2" />
+                    </LevelSubMenuStyles>
+                </asp:Menu>
+                <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" ShowStartingNode="False" />
+            </nav>
+        </div>
         <div id="PageWrapper">
             <div class="Breadcrumbs">
                 <div class="title">
@@ -63,25 +66,27 @@
                     <asp:SiteMapPath ID="SiteMapPath1" runat="server" CssClass="SiteMapPath1"></asp:SiteMapPath>
                 </div>
             </div>
-            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            <div id="VerticalNavContainer">
+                <nav id="sidebar">
+                    <asp:Menu ID="Menu2" runat="server" DataSourceID="SiteMapDataSource2" Orientation="vertical" CssClass="VerticalNav"></asp:Menu>
+                    <asp:SiteMapDataSource ID="SiteMapDataSource2" runat="server" StartFromCurrentNode="False" ShowStartingNode="false" StartingNodeOffset="1" />
+                </nav>
+            </div>
+            <asp:ContentPlaceHolder ID="StudentContent" runat="server">
             </asp:ContentPlaceHolder>
         </div>
         <div id="footer">
             <asp:Table ID="Table1" runat="server" Height="241px" Width="1270px">
                 <asp:TableRow>
                     <asp:TableCell CssClass="col1-1">
-
                     </asp:TableCell>
                     <asp:TableCell CssClass="col1-2">
-
                     </asp:TableCell>
                     <asp:TableCell CssClass="col1-3">
-
                     </asp:TableCell>
                 </asp:TableRow>
                 <asp:TableRow>
                     <asp:TableCell CssClass="col2-1">
-
                     </asp:TableCell>
                 </asp:TableRow>
             </asp:Table>

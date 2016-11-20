@@ -5,10 +5,10 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-public partial class MasterPages_MasterPage : System.Web.UI.MasterPage
+public partial class CurrentRoadrunners_ClassScheduling_Default : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
-        _pageTitle.Text = Page.Title;
+
     }
 }

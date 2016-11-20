@@ -5,10 +5,10 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-public partial class MasterPages_MasterPage : System.Web.UI.MasterPage
+public partial class Controls_ResourceLinkTable : System.Web.UI.UserControl
 {
     protected void Page_Load(object sender, EventArgs e)
     {
-        _pageTitle.Text = Page.Title;
+
     }
 }

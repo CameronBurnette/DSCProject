@@ -1,9 +1,28 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0">
   <siteMapNode url="~/" title="Home" description="Home">
-    <siteMapNode url="~/About/Default.aspx" title="About" description="About Dalton State College"/>
-    <siteMapNode url="~/CurrentRoadrunners/Default.aspx" title="Current Roadrunners" description="Information for Current Roadrunners"/>
-    <siteMapNode url="~/FutureRoadrunners/Default.aspx" title="Future Roadrunners" description="Information for Future Roadrunners"/>
-    <siteMapNode url="~/Library/Default.aspx" title="Library" description="Library Information"/>
+    <siteMapNode url="https://www.daltonstate.edu/about/" title="About" description="">
+      <siteMapNode url="https://www.daltonstate.edu/about/about-dalton-overview.cms" title="Overview" description=""/>
+      <siteMapNode url="https://www.daltonstate.edu/about/mission.cms" title="Mission" description=""/>
+      <siteMapNode url="https://www.daltonstate.edu/about/history.cms" title="History" description=""/>
+    </siteMapNode>
+    <siteMapNode url="https://www.daltonstate.edu/admissions/requirements-overview.cms" title="Admissions" description="">
+      <siteMapNode url="https://www.daltonstate.edu/admissions/admissions-resource-center.cms" title="Admissions Resource Center" description=""/>
+      <siteMapNode url="https://www.gafutures.org/" title="Apply" description=""/>
+      <siteMapNode url="https://daltonstate.gabest.usg.edu/B690/bwwkadst.P_GetID" title="Admission Status" description=""/>
+    </siteMapNode>
+    <siteMapNode url="https://www.daltonstate.edu/academics/" title="Academics" description="">
+      <siteMapNode url="https://www.daltonstate.edu/academics/mission.cms" title="Registrar" description="" />
+      <siteMapNode url="https://www.daltonstate.edu/academics/academics-schools-overview.cms" title="Schools and Department" description="" />
+      <siteMapNode url="http://catalog.daltonstate.edu/" title="Catalog" description="" />
+    </siteMapNode>
+    <siteMapNode url="https://www.daltonstate.edu/library/about-roberts-library.cms" title="Library" description=""/>
+    <siteMapNode url="https://www.daltonstate.edu/campus_life/" title="Campus Life" description="">
+      <siteMapNode url="https://www.daltonstate.edu/campus_life/dean-of-students-welcome.cms" title="Dean of Students Office" description="" />
+      <siteMapNode url="https://www.daltonstate.edu/campus_life/the-beep.cms" title="The Beep Blog" description="" />
+    </siteMapNode>
+    <siteMapNode siteMapFile="Students.sitemap">       
+    </siteMapNode>
+    
   </siteMapNode>
 </siteMap>
