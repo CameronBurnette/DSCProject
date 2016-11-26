@@ -43,7 +43,7 @@
                 </table> 
             </div>   -->
             <header>
-                <asp:ImageButton ID="DSCLogoWhite" runat="server" CssClass="PreferredLogo" PostBackUrl="~/Default.aspx" ImageUrl="~/App_Themes/DSC_Theme/Images/Dalton State Logos White-Preferred.png" />
+                <asp:ImageButton ID="DSCLogoWhite" runat="server" CssClass="PreferredLogo" PostBackUrl="https://www.daltonstate.edu/index.cms" ImageUrl="~/App_Themes/DSC_Theme/Images/Dalton State Logos White-Preferred.png" />
             </header>
         </div>
         <div id="NavContainer">
@@ -58,7 +58,7 @@
             </nav>
         </div>
         <div id="PageWrapper">
-            <div class="Breadcrumbs">
+            <div class="Breadcrumbs" style="background-image">
                 <div class="title">
                     <h1>
                         <asp:Label ID="_pageTitle" runat="server" CssClass="pageTitle"></asp:Label>

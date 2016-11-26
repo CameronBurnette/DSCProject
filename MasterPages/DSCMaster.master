@@ -40,7 +40,7 @@
                 </table> 
             </div>   -->
             <header>
-                <asp:ImageButton ID="DSCLogoWhite" runat="server" CssClass="PreferredLogo" PostBackUrl="~/Default.aspx" ImageUrl="~/App_Themes/DSC_Theme/Images/Dalton State Logos White-Preferred.png" />
+                <asp:ImageButton ID="DSCLogoWhite" runat="server" CssClass="PreferredLogo" PostBackUrl="https://www.daltonstate.edu/index.cms" ImageUrl="~/App_Themes/DSC_Theme/Images/Dalton State Logos White-Preferred.png" />
             </header>
         </div>
             <div id="NavContainer">

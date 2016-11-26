@@ -69,7 +69,7 @@
                     <li>Catalog</li>
                     <li>Class Schedule</li>
                     <li>DegreeWorks</li>
-                    <li>Exa Schedule</li>
+                    <li>Exam Schedule</li>
                     <li>Graduation</li>
                     <li>Projected Schedule</li>
                     <li>Transcripts</li>

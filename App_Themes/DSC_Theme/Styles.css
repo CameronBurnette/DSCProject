@@ -11,7 +11,7 @@
 }
 
 header {
-    background-color: #003366;
+    background-color: #003049;
     height: 200px;
     z-index: 0;
 }
@@ -116,7 +116,7 @@ h1 {
     font-weight: 600;
 }
 
-.level1 {
+#MainNav .level1 {
 }
 
 #MainNav .level2 {
@@ -130,7 +130,7 @@ h1 {
 }
 
 .Breadcrumbs {
-    background-image: url('http://localhost:58934/App_Themes/DSC_Theme/Images/bkground-about.jpg');
+    background-image: url('~/App_Themes/DSC_Theme/Images/bkground-about.jpg');
     width: 1280px;
     height: 150px;
     padding-top: 0px;
@@ -229,6 +229,12 @@ nav #sidebar {
 #secondary {
     width: 844px;
     height: 400px;
+    margin: auto;
+}
+
+#schedule {
+    width: 844px;
+    height: auto;
     margin: auto;
 }
 
